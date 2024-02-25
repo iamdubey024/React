@@ -1,9 +1,7 @@
-function App() {
-  
+import Chai from "./chai";
 
-  return (
-  <h1>Chai aur React with vite | Ayush Dubey</h1>
-  )
+function App() {
+  return (<Chai />);
 }
 
-export default App
+export default App;

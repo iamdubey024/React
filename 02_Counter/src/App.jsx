@@ -18,15 +18,12 @@ function App() {
   const decreaseValue = () => {
     // setCounter(counters - 1);
 
-    if(counter>0)  // TODO: Homework => counter value should be +ve or 0.
-    {
+    if (counter > 0) {
+      // TODO: Homework => counter value should be +ve or 0.
       AyushCounter(counter - 1);
       console.log("Clicked", counter);
     }
-   
   };
-
- 
 
   return (
     <>

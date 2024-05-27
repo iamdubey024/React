@@ -8,10 +8,14 @@ function App() {
   // let counter = 0
 
   // increase counter value
-  const addValue = () => {
+  if(counter<20)
+  {
+    const addValue = () => {
     counter = counter + 1;
     AyushCounter(counter);
-    console.log("Clicked", counter);
+    // console.log("Clicked", counter);
+  }
+  
   };
 
   // decrease counter value
@@ -19,9 +23,9 @@ function App() {
     // setCounter(counters - 1);
 
     if (counter > 0) {
-      // TODO: Homework => counter value should be +ve or 0.
+      // TODO: Homework => counter value should be less than 20 and 0.
       AyushCounter(counter - 1);
-      console.log("Clicked", counter);
+      // console.log("Clicked", counter);
     }
   };
 

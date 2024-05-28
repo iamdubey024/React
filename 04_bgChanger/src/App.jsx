@@ -7,7 +7,7 @@ function App() {
    <div className="w-full h-screen duration-200" 
    style={{backgroundColor:color}}>
 
-    <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2"> Hello
+    <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
       <div className="fixed flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl ">
 
         <button onClick={()=>setColor("orange")} className="px-3 py-1 shadow-sm rounded-3xl text-white " style={{backgroundColor:'orange'}}>
@@ -65,6 +65,10 @@ function App() {
         </button>
         <button onClick={()=>setColor("blue")} className="px-3 py-1 shadow-sm rounded-3xl text-white " style={{backgroundColor:'blue'}}>
           Blue
+        </button>
+
+        <button onClick={()=>setColor("purple")} className="px-3 py-1 shadow-sm rounded-3xl text-white " style={{backgroundColor:'purple'}}>
+          Purple
         </button>
 
       </div>
